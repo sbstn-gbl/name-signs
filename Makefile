@@ -6,13 +6,8 @@ PORT?=4444
 help:
 	@echo "Make targets:"
 	@echo "  build           install dependencies and prepare environment"
-	@echo "  activate-vim    activate vim key bindings for jupyterlab"
-	@echo "  deactivate-vim  deactivate vim key bindings for jupyterlab"
-	@echo "  clean           remove *.pyc files and __pycache__ directory"
-	@echo "  distclean       remove virtual environment"
-	@echo "  format          format python code (black and isort)"
+	@echo "  clean           remove *.pyc files, __pycache__ directory, and env"
 	@echo "  freeze          persist installed packaged to requirements.txt"
-	@echo "  install         install project module"
 	@echo "  run             run jupyter lab (default port $(PORT))"
 	@echo "Check the Makefile for details."
 
